@@ -8,3 +8,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 add_executable(check_if_member_function_exists src/check_if_member_function_exists.cpp)
 target_link_libraries(check_if_member_function_exists ${GTEST_BOTH_LIBRARIES})
 
+add_executable(function_template_partial_specialization src/function_template_partial_specialization.cpp)
+target_link_libraries(function_template_partial_specialization ${GTEST_BOTH_LIBRARIES})
+
